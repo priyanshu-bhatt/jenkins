@@ -15,9 +15,9 @@ pipeline {
 }
 
 	   }
-        stage('hii'){
+        stage('Build'){
 	    steps{
-            echo 'hii from jenkins'
+            	 sh 'clean package'
 	   
         }
            
