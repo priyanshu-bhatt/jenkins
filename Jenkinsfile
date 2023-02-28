@@ -19,7 +19,7 @@ pipeline {
 	   
         stage('Build'){
 	    steps{
-            	 sh 'clean package'
+            	 sh 'mv clean package'
 	   
         }
            
