@@ -12,6 +12,7 @@ pipeline {
                 // bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         stage('hii'){
+	    steps{
             echo 'hii from jenkins'
         }
            
