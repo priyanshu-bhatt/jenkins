@@ -14,7 +14,7 @@ pipeline {
             }
 }
 
-	   }
+	   
         stage('Build'){
 	    steps{
             	 sh 'clean package'
@@ -23,4 +23,4 @@ pipeline {
            
         }
     }
-
+}
